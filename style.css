@@ -7,18 +7,21 @@
 
 
 body{
-    background-color: rgb(184, 141, 88);
+    background-color: rgb(202, 166, 123);
     margin: 0px;
     padding: 0px;
+    border: 0px
     
     
 }
 nav{
   
-    margin: 0px;
+       margin: 0px;
    background-image: linear-gradient(to bottom, rgb(5, 130, 5), rgba(0, 0, 0, 0.918));
     padding: 10px;
-    height: 16%;
+    height: 14%;
+   
+
     
     
     
@@ -28,7 +31,7 @@ nav{
 h1#principal{
     text-align: center;
     font-family:"Poppins", sans-serif;
-    font-size: 40px;
+    font-size: 38px;
     font-weight: bolder;
     margin: 0px;
     padding: 10px 10px 0px 10px;
@@ -76,7 +79,7 @@ footer{
      }
      p{
         padding: 0px 15px;
-       font-size: 22px;
+       font-size: 20px;
        font-family: Arial, Helvetica, sans-serif;
        text-align: justify;
        line-height: 1.5em;
@@ -125,12 +128,13 @@ footer{
    }
    p.p{
         padding: 0px 15px;
-       font-size: 22px;
+       font-size: 20px;
        font-family: Arial, Helvetica, sans-serif;
        text-align: justify;
        line-height: 1.5em;
        text-indent: 30px;
        text-align: center;
+       
      }
      a.cima::after{
         content: '🔗';
