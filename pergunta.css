@@ -3,7 +3,7 @@
 body{
  background-image: linear-gradient(to left, #57A038, #4E753D,#323830);
  margin: 0;
- height: 100vh;
+ min-height: 100vh;
  display: flex;
  justify-content: center;
  align-items: center;
@@ -13,7 +13,8 @@ div{
     text-align: center;
     
     margin: auto;
-    width: 300px;
+    width: 90%;
+    max-width: 300px;
     height: 380px;
     align-items: center;
     border: 3px rgb(255, 255, 255) solid;
@@ -41,19 +42,14 @@ textarea{
     border-radius: 7px;
      box-shadow: 4px 4px rgba(0, 0, 0, 0.123);
 }
-button{
-    width: 280px;
-    margin-top: 20px;
-    margin-bottom: 40px;
-    padding: 15px;
-    border-radius: 15px;
-    text-align: center;
-}
+
+
 input{
     margin-bottom: 15px;
     border-radius: 5px;
     padding: 7px;
     box-shadow: 4px 4px rgba(0, 0, 0, 0.123);
+ ;
 }
 a{
     font-size: 16px;
@@ -62,20 +58,17 @@ a{
     text-decoration: none;
     color: black;
     background-color: white;
-    padding: 15px 100px;
+    padding: 17px ;
     border-radius: 15px;
+    display: block;
     text-align: center;
+
     
 }
-button:hover{
-    background-color: black;
-    transition-duration: 0.5s;
-    
-}
+
+
 a:hover{
     color: rgb(255, 243, 243);
-    width: 280px;
-    height: 200px;
-    background-color: black;
+    background-color: rgba(255, 255, 255, 0.158);
     transition-duration: 0.5s;
 }
